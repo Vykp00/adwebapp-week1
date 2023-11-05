@@ -1,3 +1,6 @@
+body {
+    border-width: 20px;
+}
 .wiki-item {
     -webkit-border-radius: 10px;
     border-radius: 10px;
@@ -27,6 +30,7 @@
 .wiki-img {
     display: flex;
     width: 100%;
+    padding-left: inherit;
 
 }
 
@@ -42,10 +46,11 @@
     }
     .img-container {
         min-width: 50%;
-        max-width: 50%; 
+        max-width: 50%;
+        padding-left: 20px; 
     }
     .container {
         max-width: 960px;
-        margin: auto;
+        margin: 0 auto;
     }
 }

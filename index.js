@@ -82,7 +82,7 @@ function addWikiItem(dogResult) {
     const wikiTextContent = document.createTextNode(dogResult.wikiText);
 
     const newImageContainer = document.createElement("div");
-    newImageContainer.className = "image-container"
+    newImageContainer.className = "img-container"
     const newWikiImage = document.createElement("img");
     newWikiImage.className = "wiki-img";
     newWikiImage.src = dogResult.imgURl;
